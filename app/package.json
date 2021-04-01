@@ -1,12 +1,7 @@
 {
-  "name": "frontend-boilerplate",
+  "name": "app",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "app",
-    "brand",
-    "design-system"
-  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
