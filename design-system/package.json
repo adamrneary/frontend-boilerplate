@@ -3,22 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token ebb0692e2cca"
   },
-  "dependencies": {
-    "next": "latest",
+  "peerDependencies": {
     "react": "^16.7.0",
     "react-dom": "^16.7.0"
   },
-  "license": "MIT",
   "devDependencies": {
-    "@storybook/addon-essentials": "6.0.26",
-    "@storybook/addon-links": "6.0.26",
-    "@storybook/react": "6.0.26",
-    "babel-loader": "^8.0.5"
+    "@storybook/addon-essentials": "6.2.1",
+    "@storybook/addon-links": "6.2.1",
+    "@storybook/react": "6.2.1",
+    "babel-loader": "^8.0.5",
+    "chromatic": "^5.7.0"
   }
 }
