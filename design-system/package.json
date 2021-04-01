@@ -17,5 +17,9 @@
     "@storybook/react": "6.2.1",
     "babel-loader": "^8.0.5",
     "chromatic": "^5.7.0"
-  }
+  },
+  "browserslist": [
+    "defaults",
+    "not IE 11"
+  ]
 }

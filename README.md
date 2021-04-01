@@ -3,7 +3,7 @@ This is just a fun exploration, seeing if I can capture a few learnings from the
 - [x] Yarn Workspaces for Monorepo management
 - [x] NextJS for React Framework and Routing
 - [x] Storybook and Chromatic to showcase the Design System
-- [] Linaria for CSS
+- [] Tailwind for CSS
 - [] Auth0 for Auth
 - [] Prismic for Content Management
 - [] Vercel for Deployment
